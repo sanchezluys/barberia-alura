@@ -1,49 +1,53 @@
-.titulo-principal{
-    padding-left: 30px;
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
 }
 
-#banner{
-    width:100%;
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
 }
 
-.principal{
-    background: #CCCCCC;
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.banner {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.banner img {
+    width: 100%;
+    max-width: 1200px;
+    height: auto;
+}
+
+.diferenciales {
     padding: 20px;
+    background-color: #f4f4f4;
 }
 
-.titulo-centralizado{
+footer {
+    background-color: #333;
+    color: #fff;
     text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
 }
-
-p{
-    text-align: center;
-}
-
-em strong{
-    color:red;
-}
-
-#mision{
-    font-size: 20px;
-}
-
-.diferenciales{
-    background: #FFFFFF;
-    padding: 30px;
-}
-
-.items{
-    font-style: italic;
-}
-
-ul{
-    display: inline-block;
-    vertical-align: top;
-    width: 20%;
-    margin-right: 15%;
-}
-
-.imagenDiferenciales{
-    width: 50%;
-}
-
